@@ -1,0 +1,34 @@
+# CMake / build output
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Firmware artefacts
+*.uf2
+*.elf
+*.bin
+*.hex
+*.dis
+*.map
+
+# Object files
+*.o
+*.d
+*.a
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+!.vscode/cmake-kits.json

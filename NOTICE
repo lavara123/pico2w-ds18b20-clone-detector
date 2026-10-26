@@ -1,0 +1,21 @@
+pico2w-ds18b20-clone-detector
+Copyright 2026 The pico2w-ds18b20-clone-detector contributors
+
+This product is a port of "discover-classify_fake_DS18B20.ino"
+(version 9 Nov 2024) from the project "counterfeit_DS18B20":
+
+    https://github.com/cpetrich/counterfeit_DS18B20
+    Copyright Chris Petrich, 2024
+    Licensed under the Apache License, Version 2.0
+
+The test procedures, thresholds, sensor family classification and the
+knowledge behind them are the work of Chris Petrich and the contributors
+of that project. The source files in src/ that are derived from the
+original sketch carry a notice describing the modifications made.
+
+The 1-Wire driver (src/onewire.c) is an independent implementation based
+on Maxim Integrated application notes AN126 and AN187; it contains no code
+from the Arduino OneWire library.
+
+No photos from the original project are redistributed here. The photos in
+the original repository are licensed CC BY by Chris Petrich.
